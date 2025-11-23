@@ -1,0 +1,10 @@
+[webservers]
+testserver
+
+[webservers:vars]
+; RFC 5737 ip address used
+ansible_host=192.0.2.99
+; if using `aws/create_ec2.py`
+ansible_user=ubuntu
+; if using `aws/create_keypair.py`
+ansible_private_key_file=/tmp/test-key-pair.pem

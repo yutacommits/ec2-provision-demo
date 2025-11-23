@@ -1,0 +1,8 @@
+__pycache__/
+.ansible/
+.env
+misc/
+logs/
+nginx.crt
+nginx.key
+ec2.ini
